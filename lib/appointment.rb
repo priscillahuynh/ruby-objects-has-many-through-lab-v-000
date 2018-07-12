@@ -7,7 +7,6 @@ class Appointment
     @doctor=doctor
     @date=date
     @@all<<self
-    @patients=[]
   end
 
   def self.all
