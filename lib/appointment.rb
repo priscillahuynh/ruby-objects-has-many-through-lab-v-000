@@ -3,7 +3,7 @@ class Appointment
   @@all=[]
 
   def initialize(patient,doctor,date)
-    @patient=patient 
+    @patient=patient
     @doctor=doctor
     @date=date
     doctor.new_appointment(self)
