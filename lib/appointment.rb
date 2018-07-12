@@ -6,7 +6,6 @@ class Appointment
     @patient=patient
     @doctor=doctor
     @date=date
-    patient.new_appointment(self)
     @@all<<self
   end
 
