@@ -19,7 +19,7 @@ class Doctor
     @appointments
   end
 
-  def new_appointment(date,patient)
+  def new_appointment(patient,date)
     appointment=Appointment.new(patient, self, date)
     @appointments<<appointment
     appointment
